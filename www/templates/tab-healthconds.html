@@ -1,0 +1,9 @@
+<ion-view title="Healthconds">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item ng-repeat="healthcond in healthconds" type="item-text-wrap" href="#/tab/healthcond/{{healthcond.id}}">
+        {{healthcond.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
